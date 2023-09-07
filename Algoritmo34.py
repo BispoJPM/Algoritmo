@@ -1,6 +1,5 @@
-num_int="9, 10, 8"
-print("\n9")
-ant= 9 - 1
-suc= 9 + 1
-print("\no sucessor é", suc, "o antecessor é:", ant)
+numero = int(input("\nEntre com um número: "))
+ant= numero -1
+suc= numero +1
+print("\nO sucessor é", suc, "O antecessor é", ant)
 print("\n")
