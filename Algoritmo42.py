@@ -1,10 +1,10 @@
 angulo=float(input("\nDigite um ângulo em graus: "))
-import math
-rang=angulo*math.pi/180
-print("\nSeno: ", math.sin(rang))
-print("\nCo-seno: ", math.cos(rang))
-print("\nTangente: ", math.tan(rang))
-print("\nCo-secante: ", 1/math.sin(rang))
-print("\nSecante: ", 1/math.cos(rang))
-print("\nCotangente: ",1/math.tan(rang))
-print("\n")
+import math as m
+rang=angulo*m.pi/180
+print(f"\nSeno: {m.sin(rang): .2f}")
+print(f"\nCo-seno: {m.cos(rang): .2f}")
+print(f"\nTangente: {m.tan(rang): .2f}")
+print(f"\nCo-secante: {1/m.sin(rang): .2f}")
+print(f"\nSecante: {1/m.cos(rang): .2f}")
+print(f"\nCotangente: {1/m.tan(rang): .2f}", "\n")
+

@@ -1,2 +1,2 @@
-num = int(input("\nEntre com um número: "))
+num=int(input("\nEntre com um número: "))
 print("\nNúmero:", num, "\n")

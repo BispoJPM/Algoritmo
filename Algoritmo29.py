@@ -1,2 +1,1 @@
-print("\nJoão Pedro")
-print("\n")
+print("\nJoão Pedro", "\n")

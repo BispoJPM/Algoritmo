@@ -1,0 +1,8 @@
+nome=str(input("\nEntre com o nome: "))
+print("\nTodo o nome: ", nome)
+print("\nPrimeiro caractere: ", nome[0])
+print("\nÚltimo caractere: ", nome[-1])
+print("\nPrimeiro ao Terceiro caractere: ", nome[:3])
+print("\nQuarto caractere: ", nome[3])
+print("\nTodos menos o primeiro: ", nome[1:])
+print("\nOs dois últimos: ", nome[-2:], "\n")
