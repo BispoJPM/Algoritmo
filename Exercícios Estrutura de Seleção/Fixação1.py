@@ -10,4 +10,4 @@ if Sexo == 'm':
     print(f"\nPeso Ideal: {peso_ideal: .2f}")
 else:
     peso_ideal = (62.1 * Alt) - 44.7
-    print(f"\nPeso Ideal: {peso_ideal: .2f}")
+    print(f"\nPeso Ideal: {peso_ideal: .2f}", "\n")

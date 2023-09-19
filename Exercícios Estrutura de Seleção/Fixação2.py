@@ -18,5 +18,5 @@ if Gs > 20:
         total=sd-dc
         print(f"\nO valor com desconto sobre a Gasolina é: {total: .2f}", "\n")
 else:
-        total=Gs*3.30
-        print(f"\nO valor sem desconto é: {total: .2f}", "\n")
+    total=Gs*3.30
+    print(f"\nO valor sem desconto é: {total: .2f}", "\n")

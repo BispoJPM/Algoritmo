@@ -4,7 +4,7 @@ C = float(input("Digite o valor do lado C: "))
 
 if (A + B) <= C or (B + C) <= A or (A + C) <= B:
     print("\nNão compõem um triângulo", "\n")
-  
+
 elif A == B == C:
     print("\nEle é um Triângulo equilátero", "\n")
 elif A == B or A == C or B == C:

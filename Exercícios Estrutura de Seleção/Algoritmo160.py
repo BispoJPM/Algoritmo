@@ -7,4 +7,5 @@ elif 2 < x <= 3:
     y = x ** 2
 else:
     y = x ** 3 
-print("\nO valor de Y é: ", y, "\n")
+print("\nO valor de Y é: ", y)
+print("\n")

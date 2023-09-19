@@ -15,5 +15,5 @@ paises_classificados = sorted(paises, key=lambda x: x[1], reverse=True)
 
 print("\nClassificação dos países:")
 for i, (nome, pontuacao) in enumerate(paises_classificados):
-    print(f"\n{i + 1}. {nome} - Pontuação: {pontuacao}")
-    print("\n")
+    print(f"\n{i + 1}. {nome} - Pontuação: {pontuacao}", "\n")
+    
