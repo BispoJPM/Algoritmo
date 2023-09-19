@@ -29,4 +29,5 @@ elif(dt==4):
     elif(id==2):
         print("\nO valor da passagem de ida-volta para a Região Sul é de R$ 550.00", "\n")
 else:
-    print("\nOpção Inexistente", "\n")
+    print("\nOpção Inexistente")
+    print("\n")
