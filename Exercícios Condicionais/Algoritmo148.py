@@ -1,13 +1,13 @@
 regiao = ["1 - Região Norte", "2 - Região Nordeste", "3 - Região Centro-Oeste", "4 - Região Sul"]
-print("\nRegiöes Disponíveis:", "\n")
+print("\nRegiões Disponíveis:", "\n")
 for Região in regiao:
     print(Região)
 tipo = ["1 - Ida", "2 - Ida e Volta"]
 print("\nTipos Disponíveis: ", "\n")
 for Ida in tipo:
     print(Ida)
-dt=int(input("\nDigite o número da região: "))
-id=int(input("Digite o número da opção desejada: "))
+dt=int(input("\nDigite o número da Região: "))
+id=int(input("Digite o número do Tipo de Passagem: "))
 if(dt==1):
     if(id==1):
         print("\nO valor da passagem de ida para a Região Norte é de R$ 500.00", "\n")
