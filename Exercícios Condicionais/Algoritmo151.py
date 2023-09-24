@@ -10,7 +10,7 @@ elif 20 < IMC < 25:
     print("\nO Paciente",nome,"está na Faixa de Risco: Normal", "\n")
 elif 25 < IMC < 30:
     print("\nO Paciente",nome,"está na Faixa de Risco: Excesso de Peso", "\n")
-elif 30 < IMC < 25:
+elif 30 < IMC < 35:
     print("\nO Paciente",nome,"está na Faixa de Risco: Obesidade", "\n")
 else:
     print("\nO Paciente",nome,"está na Faixa de Risco: Obesidade Mórbida", "\n")
